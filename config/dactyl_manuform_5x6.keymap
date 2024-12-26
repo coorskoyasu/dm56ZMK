@@ -101,23 +101,23 @@
 
         lower_layer {
             bindings = <
-&kp F12  &kp F1  &kp F2  &kp F3  &kp F4  &kp F5                  &kp F6  &kp F7    &kp F8    &kp F9  &kp F10    &kp F11
-&trans   &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans    &trans  &trans     &trans
-&trans   &trans  &trans  &trans  &trans  &trans                  &trans  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT  &trans
-&trans   &trans  &trans  &trans  &trans  &trans                  &trans  &trans    &trans    &trans  &trans     &trans
-                 &trans  &trans                                                    &trans    &trans
-                                 &trans  &trans                  &trans  &mo 0
-                                         &trans  &trans  &trans  &trans
-                                         &trans  &trans  &to 0   &trans
+&kp ESCAPE        &kp N1  &kp N2  &kp N3  &kp N4  &kp NUMBER_5                  &kp N6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp N0     &kp MINUS
+&kp TAB           &trans  &trans  &trans  &trans  &trans                        &trans  &trans        &trans        &trans        &trans     &trans
+&kp LEFT_CONTROL  &trans  &trans  &trans  &trans  &trans                        &trans  &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT  &trans
+&kp LEFT_SHIFT    &trans  &trans  &trans  &trans  &trans                        &trans  &trans        &trans        &trans        &trans     &trans
+                          &trans  &trans                                                              &trans        &trans
+                                          &trans  &trans                        &trans  &mo 0
+                                                  &trans        &trans  &trans  &trans
+                                                  &trans        &trans  &to 0   &trans
             >;
         };
 
         raise_layer {
             bindings = <
-&bootloader  &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4                   &trans    &trans    &trans     &trans  &trans            &bootloader
-&trans       &bt BT_DISC 0  &bt BT_DISC 1   &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4                  &trans    &trans    &trans     &trans  &kp C_PLAY_PAUSE  &kp K_VOL_UP
-&trans       &bt BT_CLR     &bt BT_CLR_ALL  &bt BT_NXT     &bt BT_PRV     &trans                         &trans    &kp UP    &trans     &trans  &kp C_NEXT        &kp K_VOL_DN
-&trans       &trans         &trans          &trans         &trans         &trans                         &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &kp C_PREVIOUS    &kp K_MUTE
+&bootloader  &kp F1         &kp F2          &kp F3         &kp F4         &kp F5                         &kp F6    &kp F7    &kp F8     &kp F9  &kp F10           &bootloader
+&trans       &bt BT_SEL 0   &bt BT_SEL 1    &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_DISC 4                  &trans    &trans    &trans     &trans  &kp C_PLAY_PAUSE  &kp K_VOL_UP
+&trans       &bt BT_DISC 0  &bt BT_DISC 1   &bt BT_DISC 2  &bt BT_DISC 3  &trans                         &trans    &kp UP    &trans     &trans  &kp C_NEXT        &kp K_VOL_DN
+&trans       &bt BT_CLR     &bt BT_CLR_ALL  &bt BT_NXT     &bt BT_PRV     &trans                         &kp LEFT  &kp DOWN  &kp RIGHT  &trans  &kp C_PREVIOUS    &kp K_MUTE
                             &trans          &trans                                                                           &trans     &trans
                                                            &trans         &trans                         &trans    &trans
                                                                           &trans         &trans  &trans  &trans
