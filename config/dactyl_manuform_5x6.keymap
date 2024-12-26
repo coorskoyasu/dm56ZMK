@@ -55,6 +55,20 @@
 
             label = "CTSP";
         };
+
+        macro_ba: macro_ba {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp B &kp A>;
+            label = "MACRO_BA";
+        };
+
+        macro_bi: macro_bi {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp B &kp I>;
+            label = "MACRO_BI";
+        };
     };
 
     keymap {
