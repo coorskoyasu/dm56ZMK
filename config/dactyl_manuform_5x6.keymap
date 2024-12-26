@@ -67,6 +67,11 @@
             bindings = <&macro_be>;
             key-positions = <41 54>;
         };
+
+        comboBO {
+            bindings = <&macro_bo>;
+            key-positions = <52 45>;
+        };
     };
 
     macros {
@@ -111,6 +116,13 @@
             #binding-cells = <0>;
             bindings = <&none &kp B &kp E>;
             label = "MACRO_";
+        };
+
+        macro_bo: macro_bo {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp B &kp O>;
+            label = "MACRO_BO";
         };
     };
 
