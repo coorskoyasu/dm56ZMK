@@ -45,7 +45,19 @@
         };
     };
 
-    combos { compatible = "zmk,combos"; };
+    combos {
+        compatible = "zmk,combos";
+
+        conBA {
+            bindings = <&macro_ba>;
+            key-positions = <53 30>;
+        };
+
+        conBI {
+            bindings = <&macro_bi>;
+            key-positions = <54 37>;
+        };
+    };
 
     macros {
         ctsp: ctsp {
