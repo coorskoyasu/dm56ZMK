@@ -81,6 +81,13 @@
             bindings = <&none &kp B &kp I>;
             label = "MACRO_BI";
         };
+
+        macro_ka: macro_ka {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none &kp K &kp A>;
+            label = "MACRO_KA";
+        };
     };
 
     keymap {
@@ -101,14 +108,14 @@
 
         lower_layer {
             bindings = <
-&kp ESCAPE        &kp N1  &kp N2  &kp N3  &kp N4  &kp NUMBER_5                  &kp N6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp N0     &kp MINUS
-&kp TAB           &trans  &trans  &trans  &trans  &trans                        &trans  &trans        &trans        &trans        &trans     &trans
-&kp LEFT_CONTROL  &trans  &trans  &trans  &trans  &trans                        &trans  &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT  &trans
-&kp LEFT_SHIFT    &trans  &trans  &trans  &trans  &trans                        &trans  &trans        &trans        &trans        &trans     &trans
-                          &trans  &trans                                                              &trans        &trans
-                                          &trans  &trans                        &trans  &mo 0
-                                                  &trans        &trans  &trans  &trans
-                                                  &trans        &trans  &to 0   &trans
+&kp ESCAPE        &kp N1     &kp N2  &kp N3  &kp N4  &kp NUMBER_5                  &kp N6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp N0     &kp MINUS
+&kp TAB           &macro_ka  &trans  &trans  &trans  &trans                        &trans  &trans        &trans        &trans        &trans     &trans
+&kp LEFT_CONTROL  &kp U      &trans  &trans  &trans  &trans                        &trans  &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT  &trans
+&kp LEFT_SHIFT    &trans     &trans  &trans  &trans  &trans                        &trans  &trans        &trans        &trans        &trans     &trans
+                             &trans  &trans                                                              &trans        &trans
+                                             &trans  &trans                        &trans  &mo 0
+                                                     &trans        &trans  &trans  &trans
+                                                     &trans        &trans  &to 0   &trans
             >;
         };
 
