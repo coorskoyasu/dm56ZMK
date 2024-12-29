@@ -50,35 +50,46 @@
 
         conBA {
             bindings = <&macro_ba>;
+             layers = <1>;
             key-positions = <53 30>;
         };
 
         conBI {
             bindings = <&macro_bi>;
+             layers = <1>;
             key-positions = <54 37>;
         };
 
         conBU {
             bindings = <&macro_bu>;
+             layers = <1>;
             key-positions = <28 54>;
         };
 
         conBE {
             bindings = <&macro_be>;
+             layers = <1>;
             key-positions = <41 54>;
         };
 
         comboBO {
             bindings = <&macro_bo>;
+             layers = <1>;
             key-positions = <52 45>;
         };
     };
 
     macros {
+         macro_LCSP1{
+compatible = "zmk,behavior-macro";
+label = "macro_LCSP1";
+#binding-cells = <0>;
+bindings = <&kp LC(SPACE)>, <&tog 1>;
+};
         ctsp: ctsp {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&kp LEFT_CONTROL>, <&macro_press>, <&kp SPACE>;
+            bindings = <&kp LEFT_CONTROL>, <&kp SPACE>;
 
             label = "CTSP";
         };
@@ -86,42 +97,42 @@
         macro_ba: macro_ba {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp B &kp A>;
+            bindings = <&kp B>, < &kp A>;
             label = "MACRO_BA";
         };
 
         macro_bi: macro_bi {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp B &kp I>;
+            bindings = <&kp B>, < &kp I>;
             label = "MACRO_BI";
         };
 
         macro_ka: macro_ka {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp K &kp A>;
+            bindings = <&kp K>, < &kp A>;
             label = "MACRO_KA";
         };
 
         macro_bu: macro_bu {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp B &kp U>;
+            bindings = <&kp B>, < &kp U>;
             label = "MACRO_BU";
         };
 
         macro_be: macro_ {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp B &kp E>;
-            label = "MACRO_";
+            bindings = <&kp B>, < &kp E>;
+            label = "MACRO_be";
         };
 
         macro_bo: macro_bo {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&none &kp B &kp O>;
+            bindings = <&kp B>, <&kp O>;
             label = "MACRO_BO";
         };
     };
@@ -136,8 +147,8 @@
 &kp LEFT_CONTROL  &kp A   &kp S     &kp D     &kp F             &kp G                                     &kp H           &kp J                &kp K      &kp L      &kp SEMI   &kp BACKSPACE
 &kp LEFT_SHIFT    &kp Z   &kp X     &kp C     &kp V             &kp B                                     &kp N           &kp M                &kp COMMA  &kp DOT    &kp SLASH  &kp RIGHT_SHIFT
                           &kp LEFT  &kp DOWN                                                                                                   &kp UP     &kp RIGHT
-                                              &kp INT_MUHENKAN  &kp INTERNATIONAL_5                       &kp INT_HENKAN  &kp INTERNATIONAL_4
-                                                                &kp SPACE            &mo 2         &ctsp  &mo 2
+                                              &kp INT_MUHENKAN  macro_LCSP1                       macro_LCSP1  &kp INTERNATIONAL_4
+                                                                &kp SPACE            &mo 2        &kp LC(SPACE)  &mo 2
                                                                 &kp DEL              &kp LEFT_ALT  &to 1  &kp RET
             >;
         };
@@ -146,12 +157,12 @@
             bindings = <
 &kp ESCAPE        &kp N1      &kp N2     &kp N3  &kp N4  &kp NUMBER_5                  &kp N6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp N0     &kp MINUS
 &kp TAB           &kp PERIOD  &macro_ka  &trans  &trans  &trans                        &trans  &trans        &trans        &trans        &trans     &trans
-&kp LEFT_CONTROL  &kp U       &kp A      &trans  &trans  &trans                        &trans  &kp LEFT      &kp DOWN      &kp I         &kp RIGHT  &trans
+&kp LEFT_CONTROL  &kp U       &kp A      &trans  &trans  &trans                        &trans  &trans        &trans        &kp I         &trans    &trans
 &kp LEFT_SHIFT    &trans      &trans     &trans  &trans  &trans                        &trans  &trans        &trans        &trans        &trans     &trans
                               &trans     &trans                                                              &trans        &trans
-                                                 &trans  &trans                        &trans  &mo 0
-                                                         &trans        &trans  &trans  &trans
-                                                         &trans        &trans  &to 0   &trans
+                                                 &trans  &trans                        &trans &trans
+                                                         &trans        &trans   &kp LC(SPACE)  &trans
+                                                         &trans        &trans  &trans   &trans
             >;
         };
 
