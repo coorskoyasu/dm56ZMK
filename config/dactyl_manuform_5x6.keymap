@@ -430,7 +430,7 @@
     };
 
     macros {
-         macro_LCSP1{
+        cmacro_LCSP1: macro_LCSP1{
 compatible = "zmk,behavior-macro";
 label = "macro_LCSP1";
 #binding-cells = <0>;
