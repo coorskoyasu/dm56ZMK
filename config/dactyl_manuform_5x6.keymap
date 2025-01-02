@@ -988,9 +988,9 @@ bindings = <&kp LC(SPACE)>, <&tog 1>;
         lower_layer {
             bindings = <
 &kp ESCAPE          &kp F1     &kp F2     &kp F3  &kp F4  &kp F5                       &kp F6    &kp F7        &kp F8     &kp F9       &kp F10    &kp MINUS
-&kp TAB           &kp PERIOD  &macroKA  &macroTA  &macroTA  &macroSA                        &trans  &macroTI        &macroKU        &macroTU        &kp COMMA     &trans
-&kp LEFT_CONTROL  &kp U       &macroSI  &macroTE  &macroKE  &macroSE                        &macroHA  &macroTO       &macroKI        &kp I         &trans    &trans
-&kp LEFT_SHIFT    &kp PERIOD  &macroHI  &macroSU  &macroHU  &macroHE                        &macroME  &macroSO        &macroNE        &macroHO        &trans     &trans
+&kp TAB           &kp PERIOD  &MACROKA  &MACROTA  &MACROTA  &MACROSA                        &MACRORA  &MACROTI        &MACROKU        &MACROTU        &kp COMMA     &trans
+&kp LEFT_CONTROL  &kp U       &MACROSI  &MACROTE  &MACROKE  &MACROSE                        &MACROHA  &MACROTO       &MACROKI        &kp I         &trans    &trans
+&kp LEFT_SHIFT    &kp PERIOD  &MACROHI  &MACROSU  &MACROHU  &MACROHE                        &MACROME  &MACROSO        &MACRONE        &MACROHO        &trans     &trans
                               &trans     &trans                                                              &trans        &trans
                                                  &trans  &trans                        &trans &trans
                                                          &trans        &trans   &kp LC(SPACE)  &trans
