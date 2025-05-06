@@ -979,8 +979,8 @@
 &kp LEFT_SHIFT    &kp Z   &kp X     &kp C     &kp V             &kp B                                      &kp N         &kp M                &kp COMMA  &kp DOT    &kp SLASH  &kp RIGHT_SHIFT
                           &kp LEFT  &kp DOWN                                                                                                  &kp UP     &kp RIGHT
                                               &kp INT_MUHENKAN  &to 0                               &to 1  &kp INTERNATIONAL_4
-                                                                &kp SPACE     &mo 2         &kp LC(SPACE)  &mo 2
-                                                                &kp DEL       &kp LEFT_ALT  &to 1          &kp RET
+                                                                &kp SPACE     &mo 2         &kp LC(SPACE)  &kp RET
+                                                                &kp DEL       &kp LEFT_ALT  &kp RIGHT_GUI          &mo 2
             >;
         };
 
@@ -993,7 +993,7 @@
                               &trans    &trans                                                                   &trans    &trans
                                                   &trans    &trans                           &trans    &trans
                                                             &trans    &trans  &kp LC(SPACE)  &trans
-                                                            &trans    &trans  &to 0         &trans
+                                                            &trans    &trans  &trans        &trans
             >;
         };
 
@@ -1006,7 +1006,7 @@
                             &trans          &trans                                                                                 &trans     &trans
                                                            &trans         &trans                               &trans    &trans
                                                                           &trans         &trans        &trans  &trans
-                                                                          &trans         &kp LEFT_GUI  &trans  &trans
+                                                                          &trans         &trans  &trans  &trans
             >;
         };
     };
