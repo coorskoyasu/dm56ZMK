@@ -788,35 +788,35 @@
         ComboPA {
             bindings = <&macroPA>;
             layers = <1>;
-            key-positions = <36 30>;
+            key-positions = <18 52>;
             timeout-ms = <60>;
         };
 
         ComboPI {
-            bindings = <&macroPA>;
+            bindings = <&macroPI>;
             layers = <1>;
-            key-positions = <38 47>;
+            key-positions = <22 52>;
             timeout-ms = <60>;
         };
 
         ComboPU {
             bindings = <&macroPU>;
             layers = <1>;
-            key-positions = <47 40>;
+            key-positions = <52 42>;
             timeout-ms = <60>;
         };
 
         ComboPE {
             bindings = <&macroPE>;
             layers = <1>;
-            key-positions = <41 47>;
+            key-positions = <52 44>;
             timeout-ms = <60>;
         };
 
         ComboPO {
             bindings = <&macroPO>;
             layers = <1>;
-            key-positions = <36 45>;
+            key-positions = <45 52>;
             timeout-ms = <60>;
         };
 
@@ -928,7 +928,7 @@
         ComboBA {
             bindings = <&macroBA>;
             layers = <1>;
-            key-positions = <30 48>;
+            key-positions = <30 52>;
             timeout-ms = <60>;
         };
 
