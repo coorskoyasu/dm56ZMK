@@ -641,14 +641,14 @@
         ComboMA {
             bindings = <&macroMA>;
             layers = <1>;
-            key-positions = <55 21>;
+            key-positions = <65 36>;
             timeout-ms = <60>;
         };
 
         ComboMI {
             bindings = <&macroMI>;
             layers = <1>;
-            key-positions = <55 30>;
+            key-positions = <65 50>;
             timeout-ms = <60>;
         };
 
@@ -662,266 +662,266 @@
         ComboMO {
             bindings = <&macroMO>;
             layers = <1>;
-            key-positions = <52 29>;
+            key-positions = <62 33>;
             timeout-ms = <60>;
         };
 
         ComboYA {
             bindings = <&macroYA>;
             layers = <1>;
-            key-positions = <52 40>;
+            key-positions = <62 46>;
             timeout-ms = <60>;
         };
 
         ComboYU {
             bindings = <&macroYU>;
             layers = <1>;
-            key-positions = <55 43>;
+            key-positions = <65 49>;
             timeout-ms = <60>;
         };
 
         ComboYO {
             bindings = <&macroYO>;
             layers = <1>;
-            key-positions = <55 18>;
+            key-positions = <65 22>;
             timeout-ms = <60>;
         };
 
         ComboRI {
             bindings = <&macroRI>;
             layers = <1>;
-            key-positions = <52 15>;
+            key-positions = <62 17>;
             timeout-ms = <60>;
         };
 
         ComboRU {
             bindings = <&macroRU>;
             layers = <1>;
-            key-positions = <55 20>;
+            key-positions = <65 24>;
             timeout-ms = <60>;
         };
 
         ComboRE {
             bindings = <&macroRE>;
             layers = <1>;
-            key-positions = <52 17>;
+            key-positions = <62 19>;
             timeout-ms = <60>;
         };
 
         ComboRO {
             bindings = <&macroRO>;
             layers = <1>;
-            key-positions = <52 39>;
+            key-positions = <39 62 45>;
             timeout-ms = <60>;
         };
 
         ComboWA {
             bindings = <&macroWA>;
             layers = <1>;
-            key-positions = <55 45>;
+            key-positions = <65 51>;
             timeout-ms = <60>;
         };
 
         ComboWO {
             bindings = <&macroWO>;
             layers = <1>;
-            key-positions = <25 52>;
+            key-positions = <62 29>;
             timeout-ms = <60>;
         };
 
         ComboLya {
             bindings = <&macroLya>;
             layers = <1>;
-            key-positions = <52 16>;
+            key-positions = <62 18>;
             timeout-ms = <60>;
         };
 
         ComboLyu {
             bindings = <&macroLyu>;
             layers = <1>;
-            key-positions = <52 28>;
+            key-positions = <62 32>;
             timeout-ms = <60>;
         };
 
         ComboLyo {
             bindings = <&macroLyo>;
             layers = <1>;
-            key-positions = <55 33>;
+            key-positions = <65 39>;
             timeout-ms = <60>;
         };
 
         ComboLA {
             bindings = <&macroLa>;
             layers = <1>;
-            key-positions = <52 13>;
+            key-positions = <62 15>;
             timeout-ms = <60>;
         };
 
         ComboLI {
             bindings = <&macroLi>;
             layers = <1>;
-            key-positions = <52 41>;
+            key-positions = <62 47>;
             timeout-ms = <60>;
         };
 
         ComboLU {
             bindings = <&macroLu>;
             layers = <1>;
-            key-positions = <52 37>;
+            key-positions = <62 43>;
             timeout-ms = <60>;
         };
 
         ComboLE {
             bindings = <&macroLe>;
             layers = <1>;
-            key-positions = <55 22>;
+            key-positions = <62 16>;
             timeout-ms = <60>;
         };
 
         ComboLO {
             bindings = <&macroLo>;
             layers = <1>;
-            key-positions = <55 46>;
+            key-positions = <65 52>;
             timeout-ms = <60>;
         };
 
         ComboPA {
             bindings = <&macroPA>;
             layers = <1>;
-            key-positions = <36 30>;
+            key-positions = <62 21>;
             timeout-ms = <60>;
         };
 
         ComboPI {
             bindings = <&macroPA>;
             layers = <1>;
-            key-positions = <38 47>;
+            key-positions = <62 26>;
             timeout-ms = <60>;
         };
 
         ComboPU {
             bindings = <&macroPU>;
             layers = <1>;
-            key-positions = <47 40>;
+            key-positions = <62 48>;
             timeout-ms = <60>;
         };
 
         ComboPE {
             bindings = <&macroPE>;
             layers = <1>;
-            key-positions = <41 47>;
+            key-positions = <62 50>;
             timeout-ms = <60>;
         };
 
         ComboPO {
             bindings = <&macroPO>;
             layers = <1>;
-            key-positions = <36 45>;
+            key-positions = <62 50>;
             timeout-ms = <60>;
         };
 
         ComboGA {
             bindings = <&macroGA>;
             layers = <1>;
-            key-positions = <55 14>;
+            key-positions = <65 15>;
             timeout-ms = <60>;
         };
 
         ComboGI {
             bindings = <&macroGI>;
             layers = <1>;
-            key-positions = <52 32>;
+            key-positions = <38 62>;
             timeout-ms = <60>;
         };
 
         ComboGU {
             bindings = <&macroGU>;
             layers = <1>;
-            key-positions = <52 20>;
+            key-positions = <62 24>;
             timeout-ms = <60>;
         };
 
         ComboGE {
             bindings = <&macroGE>;
             layers = <1>;
-            key-positions = <55 28>;
+            key-positions = <65 32>;
             timeout-ms = <60>;
         };
 
         ComboGO {
             bindings = <&macroGO>;
             layers = <1>;
-            key-positions = <55 16>;
+            key-positions = <65 18>;
             timeout-ms = <60>;
         };
 
         ComboZA {
             bindings = <&macroZA>;
             layers = <1>;
-            key-positions = <55 17>;
+            key-positions = <65 19>;
             timeout-ms = <60>;
         };
 
         ComboZI {
             bindings = <&macroZI>;
             layers = <1>;
-            key-positions = <55 26>;
+            key-positions = <65 30>;
             timeout-ms = <60>;
         };
 
         ComboZU {
             bindings = <&macroZU>;
             layers = <1>;
-            key-positions = <39 55>;
+            key-positions = <65 45>;
             timeout-ms = <60>;
         };
 
         ComboZE {
             bindings = <&macroZE>;
             layers = <1>;
-            key-positions = <29 55>;
+            key-positions = <65 33>;
             timeout-ms = <60>;
         };
 
         ComboZO {
             bindings = <&macroZO>;
             layers = <1>;
-            key-positions = <52 43>;
+            key-positions = <62 49>;
             timeout-ms = <60>;
         };
 
         ComboDA {
             bindings = <&macroDA>;
             layers = <1>;
-            key-positions = <15 55>;
+            key-positions = <65 17>;
             timeout-ms = <60>;
         };
 
         ComboDI {
             bindings = <&macroDI>;
             layers = <1>;
-            key-positions = <52 19>;
+            key-positions = <62 22>;
             timeout-ms = <60>;
         };
 
         ComboDU {
             bindings = <&macroDU>;
             layers = <1>;
-            key-positions = <52 21>;
+            key-positions = <62 25>;
             timeout-ms = <60>;
         };
 
         ComboDE {
             bindings = <&macroDE>;
             layers = <1>;
-            key-positions = <27 55>;
+            key-positions = <65 31>;
             timeout-ms = <60>;
         };
 
         ComboDO {
             bindings = <&macroDO>;
             layers = <1>;
-            key-positions = <52 31>;
+            key-positions = <62 37>;
             timeout-ms = <60>;
         };
 
@@ -935,36 +935,41 @@
         ComboBI {
             bindings = <&macroBI>;
             layers = <1>;
-            key-positions = <55 38>;
+            key-positions = <62 22>;
             timeout-ms = <60>;
         };
 
         ComboBU {
             bindings = <&macroBU>;
             layers = <1>;
-            key-positions = <40 55>;
+            key-positions = <65 46>;
             timeout-ms = <60>;
         };
 
         ComboBE {
             bindings = <&macroBE>;
             layers = <1>;
-            key-positions = <41 55>;
+            key-positions = <65 47>;
             timeout-ms = <60>;
         };
 
         ComboBO {
             bindings = <&macroBO>;
             layers = <1>;
-            key-positions = <52 45>;
+            key-positions = <62 51>;
             timeout-ms = <60>;
         };
 
         ComboLTU {
             bindings = <&macroLTU>;
             layers = <1>;
-            key-positions = <55 34>;
+            key-positions = <65 52>;
             timeout-ms = <60>;
+        };
+
+        Combo-- {
+            bindings = <&kp MINUS>;
+            key-positions = <62 44>;
         };
     };
 
