@@ -816,7 +816,7 @@
         ComboPO {
             bindings = <&macroPO>;
             layers = <1>;
-            key-positions = <45 52>;
+            key-positions = <52 33>;
             timeout-ms = <60>;
         };
 
