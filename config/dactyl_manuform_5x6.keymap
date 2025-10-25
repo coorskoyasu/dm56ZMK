@@ -966,6 +966,11 @@
             key-positions = <55 34>;
             timeout-ms = <60>;
         };
+
+        combo-- {
+            bindings = <&kp MINUS>;
+            key-positions = <52 38>;
+        };
     };
 
     keymap {
